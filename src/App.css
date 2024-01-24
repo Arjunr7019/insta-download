@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.width-80 {
+  width: 80%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.width-100{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contentCard {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+}
+
+.resultContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWidth {
+  width: 250px;
+}
+
+.videoContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+.main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 20px;
+  background-image: url("/src/img/instagram-background-gradient.png");
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+#inputUrl {
+  width: 60%;
+  border-radius: 20px;
+  padding: 4px 15px;
+  outline: 1px solid #bbbbbb;
+  transition: .4s ease-in-out;
+  border: 1px solid #bbbbbb;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.8px);
+  -webkit-backdrop-filter: blur(13.8px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#inputUrl:focus {
+  outline: 1px solid #000000;
+  border: 1px solid #000000;
+}
+
+.button {
+  padding: 8px 26px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.8px);
+  -webkit-backdrop-filter: blur(13.8px);
 }
