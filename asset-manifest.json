@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/insta-download/static/css/main.9e3d4e54.css",
+    "main.js": "/insta-download/static/js/main.6203061e.js",
+    "static/js/787.8d68ec90.chunk.js": "/insta-download/static/js/787.8d68ec90.chunk.js",
+    "index.html": "/insta-download/index.html",
+    "main.9e3d4e54.css.map": "/insta-download/static/css/main.9e3d4e54.css.map",
+    "main.6203061e.js.map": "/insta-download/static/js/main.6203061e.js.map",
+    "787.8d68ec90.chunk.js.map": "/insta-download/static/js/787.8d68ec90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e3d4e54.css",
+    "static/js/main.6203061e.js"
+  ]
+}
